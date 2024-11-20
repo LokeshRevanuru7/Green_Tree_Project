@@ -1,0 +1,984 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --navy-blue: #354562;
+    --green: #c0f6d4;
+    --white: #fff;
+}
+                        /* nav bar  */
+.navbar{
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.text-navbar{
+    align-self: center;
+    margin-left: 10%;
+    font-weight: 900;
+}
+.navbar-items{
+    width: 30%;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-self: center;
+    margin-top: 7%;
+    color: rgb(80, 77, 77);
+}
+.items button{
+    height: 2.5rem;
+    margin-bottom: 7%;
+    font-weight: 700;
+    border-radius: 30Px;
+    width: 7.9rem;
+    border: 0px;
+    font-size: 1rem;
+    color: var(--navy-blue);
+    background-color: #c2ece9;
+}
+.items button:hover{
+    background-color: var(--navy-blue);
+    color: var(--white);
+}
+                    /* home page  */
+.home-page{
+    background-image: url(assets/assets/home/annie-spratt-135307-unsplash.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cofee{
+    position: fixed;
+    bottom: 20px;
+    padding: 6px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(194, 132, 186);
+    border-radius: 70%;
+    right: 10px;
+}
+.home-page-card{
+    height: 55%;
+    width: 40%;
+    background-color:var(--white);
+}
+#the-issue{
+    position: absolute;
+    text-align: start;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    margin-left: 5%;
+    height: 5.5vh;
+    margin-top: -1.3%;
+    width: 10vw;
+    line-height: 5vh;
+    padding-left: 2%;
+}
+
+#the-issue-content{
+    text-align: center;
+    margin-top: 11%;
+    margin-left: 9%;
+    text-align: left;
+    color: var(--navy-blue);
+    font-weight:900;
+    font-size: 30px;
+    margin-bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
+#a{
+    font-size: 12px;
+    color: grey;
+}
+.climate-change p{
+    white-space: pre-line;
+    color: var(--white);
+    font-size: 4rem;
+    font-family: "Flood Std";
+}
+                        /* take action  */
+.take-action{
+    height: 25vh;
+    background-color: rgb(192, 226, 215);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#take-action-title{
+    position: absolute;
+    text-align: center;
+    margin-top: -12.5%;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    height: 5vh;
+    width: 10vw;
+    line-height: 5vh;
+    letter-spacing: 1.5px;
+}
+.take-action-heads h2{
+    font-size: 20px;
+    margin-left: 1%;
+    color:var(--navy-blue)
+}
+.take-action-heads p{
+    margin-top: 5%;
+    font-size: 15px;
+    color: rgb(73, 72, 72);
+}
+
+                                                /* what we do  */
+.what-we-do-container{
+    height: 165vh;
+    background-color: var(--navy-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+.what-we-do-tag{
+    background-color: var(--white);
+    color: var(--navy-blue);
+    height: 6vh;
+    width: 12vw;
+    line-height: 5vh;
+    padding-top: 2px;
+    text-align: center;
+    margin: 10px 130px;
+}
+.what-we-do-container h1{
+    font-size: 2.5rem;
+    width: 80vw;
+    align-self: center;
+    color: var(--white);
+}
+.what-we-do-card{
+    margin-top: 20px;
+    width: 23vw;
+    background-color: var(--white);
+    margin-bottom: 60px;
+}
+.what-we-do-card img{
+    height: 28vh;
+    width: 18vw;
+    transform: scale(1.3); 
+    margin-left: 68px;
+}
+.what-we-do-card h2{
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: var(--navy-blue);
+}
+.what-we-do-card p{
+    font-size: 1rem;
+    padding: 30px;
+    line-height: 1.8rem;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.card button{
+    height: 8vh;
+    width: 12vw;
+    text-align: center;
+    font-weight: 400;
+    font-family: poynter-oldstyle-display, sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background-color: #C1F7D5;
+    border-width: 0px;
+    color: var(--navy-blue);
+}
+.card button:hover{
+    background-color: var(--navy-blue);
+    color:  rgb(192, 226, 215);
+}
+                        /* section 4  climate change is a hunger issue  */
+
+.section-4{
+    background-image: url(./assets/assets/home/did-you-know-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 170px;
+    margin-top: -10%;
+}
+.section-4 .left-flex{
+    width: 50%;
+}
+.section-4 .left-flex .cursive-text{
+    white-space: pre-line;
+    color: var(--white);
+    font-size: 4rem;
+    font-family: "Flood Std";
+    margin-top: 20%;
+    margin-left: -10%;
+}
+.section-4 .left-flex .action-btn{
+    font-size: 1.2rem;
+    margin-top: 10%;
+    font-weight: bold;
+    color: var(--navy-blue);
+    background-color: #C1F7D5;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.section-4 .left-flex .action-btn:hover{
+    background-color: var(--navy-blue); 
+    color: #C1F7D5;
+}
+.section-4 .right-flex {
+     width: 70%; 
+     margin-right: -10%;
+     
+}
+.section-4 .right-flex .same-card{
+    margin-bottom: 30%;
+    width: 90%;
+    background-color: var(--white);
+    padding: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.section-4 .right-flex .same-card .know-text{
+    padding: 15px 30px;
+    background-color:var(--navy-blue);
+    color: var(--white);
+    letter-spacing: 2px;
+    position: absolute;
+    left: 10%;
+    top: -10%;
+}
+.section-4 .right-flex .same-card .same-text{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.section-4 .right-flex .same-card .compare-text{
+    font-size: 2.7rem;
+    color: #354463;
+}
+.section-4 .right-flex .same-card .same-btn-style{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background-color: #aedfc6cf;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+.section-4 .right-flex .same-card .same-btn-style:hover{
+    border: 3px solid var(--navy-blue);
+}
+.section-4 .right-flex .same-card .facebook-side p{
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+                /* section-5  */
+
+.section-5{
+    margin-top: -10%;
+    padding: 100px 200px;
+    display: flex;
+    position: relative;
+}
+.section-5 .quote-and-btn{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-5 .quote-and-btn .quote-card{
+    width: 40%; 
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding: 50px;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+.section-5 .quote-and-btn .more-btn{
+    margin-top: 530px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--navy-blue);
+    background-color: #C1F7D5;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.section-5 .quote-and-btn .more-btn:hover{
+    background-color: var(--navy-blue); 
+    color: #C1F7D5;
+}
+.section-5 .quote-and-btn .quote-card h1{
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+.section-5 .image-stories{
+    position: relative;
+    z-index: -1;
+}
+.section-5 .image-stories .stories-text{
+    padding: 15px 40px;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    letter-spacing: 2px;
+    position: absolute;
+    left: 13%;
+    top: -4%;
+    z-index: 1;
+}
+.section-5 .image-stories img{
+    width: 100%;
+    position: relative;
+}
+
+                        /* section -6  */
+.section-6{
+    padding: 110px;
+    background-color: var(--navy-blue);
+}
+.section-6 .save-text{
+    margin-top: -5%;
+    white-space: pre-line;
+    color: var(--white);
+    font-size: 3rem;
+    font-family: "Flood Std";
+}
+.section-6 .section-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+}
+.section-6 .section-flex .event-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5%;
+}
+.section-6 .section-flex .event-flex .community-card{
+    width: 43%;
+}
+.section-6 .section-flex .event-flex .community-card .event-text{
+    padding: 10px 40px;
+    background-color: var(--white);
+    color: var(--navy-blue);
+    letter-spacing: 2px;
+}
+.section-6 .section-flex .event-flex .community-card .latest-text{
+    padding: 10px 40px;
+    background-color: var(--white);
+    color: var(--navy-blue);
+    letter-spacing: 2px;
+}
+.section-6 .section-flex .event-flex .community-card .earth-day{
+    margin-top: 60px;
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+.section-6 .section-flex .event-flex .community-card .lorem-text{
+    font-size: 1.45rem;
+    text-align: justify;
+    color: #ffffffc1;
+    margin-bottom: 60px;
+}
+.section-6 .section-flex .event-flex .community-card .read-mre-btn{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--navy-blue);
+    background-color: #C1F7D5;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.section-6 .section-flex .event-flex .community-card .read-mre-btn:hover{
+    background-color: var(--navy-blue); 
+    color: #C1F7D5;
+}
+
+                /* section-7 */ 
+
+.section-7{
+    background-color: #72dc997c;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-7 .sub-text{
+    width: 37%;
+    font-size: 1.6rem;
+    color: var(--navy-blue);
+}
+.section-7 .user-details{
+    width: 47%;
+    display: flex;
+    gap: 30px;
+}
+.section-7 .user-details input{
+    padding: 11px 17px;
+    width: 65%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+}
+.section-7 .user-details .user-btn{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #C1F7D5;
+    background-color: var(--navy-blue);
+    padding: 13px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.section-7 .user-details .user-btn:hover{
+    background-color: var(--white); 
+    color: var(--navy-blue);
+}
+                        /* section-8 footer   */
+footer{
+    padding : 60px 100px;
+    display:flex;
+    gap: 100px;
+}
+footer .trees-text{
+    font-size: 1.5rem;
+    width: 18%;
+    color: #333333;
+}
+footer .footer-details{
+    width: 700%;
+    display:flex;
+    justify-content: space-between;
+}
+footer .footer-details .footer-address,footer .footer-details .follow-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 0.95rem;
+}
+footer ul a{
+    text-decoration: none;
+    color: #99A1B0;
+}
+footer ul a:hover{
+    color: rgba(0, 0, 0, 0.319);
+}
+footer .footer-details .contact-details h4{
+    color: var(--navy-blue);
+    margin-bottom: 7px;
+}
+footer .footer-details .contact-details hr{
+    width: 150px;
+    border: 1px solid var(--navy-blue);
+    margin-bottom: 15px;
+}
+footer .footer-details .climate-cursive{
+    white-space: pre-line;
+    color: var(--navy-blue);
+    font-size: 2rem;
+    font-family: "Flood Std";
+    margin-left: 20%;
+} 
+
+
+
+
+                            /* tablet view  */
+/* 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+                     /* Global styles */
+    /* * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    } */
+    /* :root {
+        --navy-blue: #354562;
+        --green: #c0f6d4;
+        --white: #fff;
+    }
+                         /* Navbar */
+    /* .navbar {
+        height: 5rem;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .text-navbar {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+    .navbar-items {
+        width: 100%;
+    }
+    .items {
+        justify-content: center;
+        width: 90%;
+        margin-top: 1rem;
+        color: rgb(80, 77, 77);
+    }
+    .items button {
+        height: 2.3rem;
+        width: 6.5rem;
+        font-size: 0.9rem;
+    } */
+
+                                    /* section-1 Home Page */
+    /* .home-page {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .home-page-card {
+        width: 80%;
+        height: auto;
+    }
+    #the-issue {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    #the-issue-content {
+        font-size: 1.8rem;
+        gap: 3vh;
+        margin: 2rem 0;
+    }
+    .climate-change p {
+        font-size: 2.5rem;
+    } */
+                                     /* section-2  Take Action */
+    /* .take-action {
+        height: auto;
+        padding: 1rem;
+        flex-direction: column;
+    }
+    #take-action-title {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+    }
+
+    .take-action-heads h2 {
+        font-size: 1.5rem;
+    }
+
+    .take-action-heads p {
+        font-size: 1rem;
+    } */
+                                     /* section-3  What We Do */
+    /* .what-we-do-container {
+        height: auto;
+        padding: 1rem;
+    }
+    .what-we-do-tag {
+        width: auto;
+        padding: 0.5rem;
+    }
+    .what-we-do-container h1 {
+        font-size: 2rem;
+    }
+    .what-we-do-card {
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .what-we-do-card img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .what-we-do-card h2 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+    .what-we-do-card p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .card {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .card button {
+        width: 80%;
+        height: 3rem;
+        margin: 1rem auto;
+    } */
+                                 /* section-4    Climate Change Section */
+    /* .section-4 {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .section-4 .left-flex {
+        width: 100%;
+        text-align: center;
+    }
+    .section-4 .cursive-text {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    .section-4 .action-btn {
+        width: 60%;
+    }
+    .section-4 .right-flex {
+        width: 100%;
+    }
+    .section-4 .same-card {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .section-4 .same-text {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section-4 .compare-text {
+        font-size: 1.8rem;
+    } */
+
+    /* Section-5 */
+    /* .section-5 {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .section-5 .quote-and-btn {
+        width: 100%;
+    }
+    .section-5 .quote-card {
+        width: 80%;
+        padding: 1rem;
+    }
+    .section-5 .more-btn {
+        width: 70%;
+    } */
+
+    /* Section-6 */
+    /* .section-6 {
+        padding: 1rem;
+    }
+    .section-6 .save-text {
+        font-size: 2.5rem;
+    }
+    .section-6 .section-flex {
+        gap: 2rem;
+    }
+    .section-6 .event-flex {
+        flex-direction: column;
+        gap: 2rem;
+    } */
+    /* Section-7 */
+    /* .section-7 {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .section-7 .sub-text {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .section-7 .user-details {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+    .section-7 .user-details input {
+        width: 100%;
+    }
+    /* Footer */
+    /* footer {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1.5rem;
+    }
+    footer .trees-text,
+    footer .footer-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .footer-details .footer-address,
+    footer .footer-details .follow-details {
+        flex-direction: column;
+        gap: 1rem;
+    } */ 
+
+
+                    /* mobile-view  */
+/* @media screen and (max-width: 767px){
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box
+    }
+    :root{
+        --navy-blue: #354562;
+        --green: #c0f6d4;
+        --white: #fff;
+    }
+    .navbar {
+        height: 5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-navbar {
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+    .navbar-items {
+        width: 100%;
+    }
+    .items {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .items button {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .home-page {
+        height: 90vh;
+        background-size: cover;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .home-page-card {
+        height: 60%;
+        width: 85%;
+    }
+    #the-issue {
+        height: auto;
+        width: auto;
+        padding: 10px;
+        line-height: normal;
+        margin-left: 0;
+    }
+    #the-issue-content {
+        font-size: 1.2rem;
+        margin-left: 0;
+        gap: 5vh;
+    }
+    #a {
+        font-size: 10px;
+    }
+    .climate-change p {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .take-action {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+    #take-action-title {
+        width: auto;
+        padding: 5px;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    .take-action-heads h2 {
+        font-size: 1.5rem;
+    }
+    .take-action-heads p {
+        font-size: 1rem;
+    }
+    
+    .what-we-do-container {
+        padding: 20px;
+        height: auto;
+        gap: 10px;
+    }
+    .what-we-do-tag {
+        width: auto;
+        padding: 5px;
+        margin: 5px auto;
+    }
+    .what-we-do-container h1 {
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: center;
+    }
+    .what-we-do-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .what-we-do-card img {
+        width: 100%;
+        height: auto;
+        transform: scale(1);
+        margin: 0;
+    }
+    .what-we-do-card h2 {
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+    .what-we-do-card p {
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+    .card {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .card button {
+        width: 80%;
+    } */
+                    /* section-4  */
+    /* .section-4 {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .section-4 .left-flex, .section-4 .right-flex {
+        width: 100%;
+    }
+    .section-4 .left-flex .cursive-text {
+        font-size: 2rem;
+        margin: 0;
+    }
+    .section-4 .right-flex .same-card {
+        width: 100%;
+        padding: 20px;
+    }
+    .section-4 .right-flex .same-card .same-text {
+        flex-direction: column;
+    }
+    .section-4 .right-flex .same-card .compare-text {
+        font-size: 1.5rem;
+    }
+    .section-4 .right-flex .same-card .facebook-side p {
+        font-size: 1rem;
+        width: 100%;
+    } */
+                        /* section-5  */
+    /* .section-5 {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .section-5 .quote-and-btn {
+        width: 100%;
+        align-items: center;
+    }
+    .section-5 .quote-and-btn .quote-card {
+        width: 100%;
+    }
+    .section-5 .quote-and-btn .more-btn {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .section-5 .image-stories {
+        width: 100%;
+    }
+    .section-5 .image-stories img {
+        width: 100%;
+    } */
+                        /* section-6 */
+    /* .section-6 {
+        padding: 20px;
+    }
+    .section-6 .save-text {
+        font-size: 2rem;
+    }
+    .section-6 .section-flex {
+        gap: 20px;
+    }
+    .section-6 .section-flex .event-flex {
+        flex-direction: column;
+    }
+    .section-6 .section-flex .event-flex .community-card {
+        width: 100%;
+    }
+    .section-6 .section-flex .event-flex .community-card .earth-day {
+        font-size: 2rem;
+    }
+    .section-6 .section-flex .event-flex .community-card .lorem-text {
+        font-size: 1rem;
+    }
+    .section-6 .section-flex .event-flex .community-card .read-mre-btn {
+        width: 80%;
+        font-size: 1rem;
+    } */
+                            /* section -7  */
+    /* .section-7 {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .section-7 .sub-text {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .section-7 .user-details {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section-7 .user-details input {
+        width: 100%;
+    }            */
+                            /* footer-section  */
+    /* footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    footer .trees-text {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    footer .footer-details {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    footer .footer-details .footer-address,
+    footer .footer-details .follow-details {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer ul li {
+        font-size: 0.85rem;
+    }
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
